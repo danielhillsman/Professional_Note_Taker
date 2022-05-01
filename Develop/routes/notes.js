@@ -35,3 +35,5 @@ notes.post("/notes", (req, res) => {
         });
     }
 });
+// Exporting notes
+module.exports = notes;
