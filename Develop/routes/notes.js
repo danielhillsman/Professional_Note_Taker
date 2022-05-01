@@ -17,6 +17,7 @@ notes.post("/notes", (req, res) => {
     const newNote = {
       title,
       text,
+    //  Added unique ID
       id: uuidv4(),
     };
     // fs reading db.josn file
