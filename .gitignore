@@ -106,3 +106,4 @@ dist
 # Misc
 node_modules
 package-lock.json
+.env
