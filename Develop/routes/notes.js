@@ -7,4 +7,7 @@ notes.get("/notes", (req, res) => {
     console.info(`${req.method} Requesting notes!`);
     fs.readFile("./db/db.json", (err, data) => res.json(JSON.parse(data)));
   });
-  
+// POST route for /notes
+notes.post("/notes", (req, res) => {
+    console.info(`${req.method} request received to add a note`);
+});
