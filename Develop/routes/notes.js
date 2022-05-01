@@ -19,12 +19,16 @@ notes.post("/notes", (req, res) => {
       text,
       id: uuidv4(),
     };
-    //fs reading db.josn file
+    // fs reading db.josn file
     fs.readFile("./db/db.json", (err, data) => {
         let storedData = JSON.parse(data);
         storedData.push(newNote);
-
-
+        // fs
+        fs.writeFile(`./db/db.json`, JSON.stringify(storedData), (err) =>
+        err
+          ? console.error(err)
+          : res.json(`New note added to db.json!`)
+      );
 
 
 
