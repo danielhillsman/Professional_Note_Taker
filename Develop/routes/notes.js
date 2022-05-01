@@ -19,9 +19,15 @@ notes.post("/notes", (req, res) => {
       text,
       id: uuidv4(),
     };
+    //fs reading db.josn file
+    fs.readFile("./db/db.json", (err, data) => {
+        let storedData = JSON.parse(data);
+        storedData.push(newNote);
 
 
 
 
-}
+
+        });
+    }
 });
