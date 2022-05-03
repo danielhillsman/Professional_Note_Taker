@@ -5,7 +5,7 @@
 ![license](https://img.shields.io/static/v1?label=license&message=LABD&color=success)
   
 ## Description
-An application to be able to find and display the current weather by city. Along with displaying that city's forecast up to 5 days ahead.
+A professional application to write notes and view the user's previous notes. The user can click on the left side to view their previous notes. To add a note, the user must hit the plus icon and then write their title for the note, then write in further detail, more about their note. To save the note, the user must hit the save icon.
   
 ## Table of Contents
  
@@ -23,11 +23,11 @@ An application to be able to find and display the current weather by city. Along
   
 ## Installation
 ````
-clone repo 
+1) "npm i", 2) "npm run seed", 3) then "npm start" 
 ````
 ## Technology-Used
 
-***HTML***, ***CSS***, ***node.js***, and ***Javascript***
+***HTML***, ***CSS***, ***Node.js***, ***Bootstrap***, and ***Javascript***
  
 ## Questions?
 
