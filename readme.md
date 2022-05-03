@@ -17,7 +17,7 @@ A professional application to write notes and view the user's previous notes. Th
 
 ## Links
 * Live Link:
-* nameless-dawn-89231.herokuapp.com/
+* https://nameless-dawn-89231.herokuapp.com/
 * Repo Link
 * https://github.com/danielhillsman/Professional_Note_Taker
   
